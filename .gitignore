@@ -1,0 +1,29 @@
+# Environment variables (API keys — never commit this!)
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+logs/
+*.log
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Build / packaging
+*.egg-info/
+dist/
+build/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
