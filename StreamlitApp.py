@@ -10,7 +10,7 @@ from src.mcqgenerator.MCQGenerator import generate_evaluate_chain
 from src.mcqgenerator.logger import logging
 
 
-with open('D:/Learnings/GENAI/LangChain/FreeCodeCamp/mcqgen/response.json','r') as f:
+with open('response.json','r') as f:
     RESPONSE_JSON=json.load(f)
 
 st.title("MCQ Creater Application using LangChain and OpenAI")
